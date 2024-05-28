@@ -1,0 +1,219 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  z-index: -2;
+  background-color: rgb(255, 255, 255);
+}
+h1{text-align: center;
+font-family: Poetsen One, sans-seri;
+background-color: rgb(252, 255, 80);
+padding: 5px;
+color: lightseagreen;
+text-shadow: 2px 2px 5px rgb(235, 148, 67);
+}
+nav{
+  position:fixed;
+  z-index: 5;
+  top: 7%;
+  left: 0%;
+}
+.nav-bar ul{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(154, 230, 233, 0.918);
+  overflow: hidden;
+  
+  
+}
+.nav-bar a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+font-size: large;
+text-align: center;
+display: block;
+padding: 20px;
+font-weight: bolder;
+}
+.fa {
+  padding: 6px;
+  font-size: 80px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+ 
+}
+.fa{ 
+  background-color: rgb(32, 78, 230);
+  color: white;
+  border-radius: 8px;
+  margin-top: 4px;
+  
+}
+.nav-bar a:hover{
+  background-color: rgba(70, 69, 68, 0.856);
+}
+.nav-bar li{
+  float: left;
+  margin-left: 120px;
+}
+.nav-bar ul li:last-of-type{
+ margin-right: 78.2px;
+}
+#home{
+  margin: 0;
+ background-image: url(home.png);
+ background-size: cover;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ padding-bottom: 270px;
+
+
+
+}
+#home img{
+  height: 150px;width: 450px;
+  margin-left:450px;
+  margin-top: 50px;
+  padding: 8px;
+}
+#home>p{
+   font-weight: bold;text-align: justify;font-size: x-large;
+   margin: 25px 200px 0 280px;
+   background-color:rgba(126, 231, 126, 0.486) ;
+   display: block;font-style: italic;
+
+}
+#edu{
+  margin-top: 10px;width: 100%;text-align: center;
+  font-family:fantasy; 
+  background-image: url("edubook.png");
+  background-repeat: no-repeat;
+  background-size:cover;background-attachment: fixed; 
+  padding-bottom: 10px;
+}
+.clr-div{
+  clear: both;
+}
+#edu h2{
+text-align: center;
+
+}
+fieldset{
+  border: 2px solid black;
+  color:rgb(248, 250, 253);
+}
+.table-ed{
+  border-collapse: collapse;border: 2px solid black;
+  background-color: rgba(255, 255, 240, 0.37);
+  height: 600px;width: 900px;display: inline-table; font-size: large;margin-bottom: 14px;
+  color:rgb(0, 0, 0);
+}
+#photos{
+  
+  padding: 50px;
+  background-image:url("mep.jpg") ;
+  background-size: cover;
+margin-top: 50px;margin-bottom: 200px;
+filter:grayscale(200);
+opacity: 1;z-index: 1;
+}
+#photos>.pic{
+  margin:40px 0px 40px 0 ;
+
+ position: relative;left: 160px;
+}
+#photos:hover{
+  filter: none;
+  transition: 300ms ease-in; z-index: 20;opacity:10 ;
+}
+#photos>h2{
+  text-align: center;
+  position: relative;
+  bottom:40px;
+  font-family:cursive;
+  font-size: xx-large;
+  color: beige;
+ 
+}
+#skillset{
+  background-color: #f5fafa;
+  height:700px ;
+  width:100% ;
+  display: flex;
+  margin-top: 25px;
+  padding-top: 20px;
+  
+}
+
+
+#skillset>div{
+  background-color: beige;
+  height: 300px;width:400px;
+  margin:10px ;
+  margin-left: 20px;
+  font-size: larger; 
+  position: relative; top: 20px;
+  box-shadow:2px 2px 9px black ;
+ z-index: 2;
+}
+#skillset div ul{
+  margin-left: 110px;
+  
+}
+#skillset div h4{
+  margin-left: 60px;
+}
+#skillset div:hover{
+box-shadow: 16px 20px 50px black; transition:400ms ease-in-out ;
+background-color: rgba(219, 214, 138, 0.822);
+z-index: 11111;
+}
+#contact{height: 400px;
+background-color: aquamarine;
+text-align: center;
+margin-left: 300px;
+margin-right:300px;}
+#contact input{
+  width: 90px;
+}
+.butto{margin-top: 5px;
+height: 29px;width: 100px;
+border-style: none;
+border-radius: 20px;
+border-radius:24.5 ;
+background-color: coral;color: beige;font-weight: bolder;
+
+}
+.butto:hover{
+  background-color: rgba(165, 42, 42, 0.753);
+
+}
+#contact label{
+  font-size: larger;
+}
+.name{
+  color: rgb(78, 79, 177);font-size: 30px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+  background-color: aquamarine;
+  height: 60px; 
+  margin-top:10px;
+}
+  
+.mail a{font-size: X-large;
+
+font-weight: bolder;
+text-decoration:none;color: rgb(6, 16, 24);}
+.mail a:hover{
+  color: brown;background-color: burlywood;transition: ease-out;
+}
+#last h2{
+  float: left;
+}
+#last .mail{
+  float: right;
+}
