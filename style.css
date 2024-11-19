@@ -17,7 +17,7 @@ text-shadow: 2px 2px 5px rgb(235, 148, 67);
 nav{
   position:fixed;
   z-index: 5;
-  top: 7%;
+  top: 10%;
   left: 0%;
 }
 .nav-bar ul{
